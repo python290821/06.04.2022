@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <!-- you can download the jquery file ... -->
+    <!--<script src="jquery.min.js"></script>-->
+</head>
+<body>
+    <h1>JQuery ajax get demo</h1>
+    <hr>
+    <div >
+        <button id="btn1">JQUERY AJAX GET</button>
+    </div>
+    <br />
+    <Table id="customers" border=1 style="padding:5px" cellpadding="7">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Email</th>
+        <th>DELETE</th>
+     </tr>
+ </table>
+ <br><br>
+
+<hr>
+    <h2>ADD</h2>
+    <p>ID <input type="number" id="txt_id"></p>
+    <p>NAME <input type="text" id="txt_name"></p>
+    <p>EMAIl <input type="email" id="txt_email"></p>
+    <p>ADDRESS <input type="text" id="txt_address"></p>
+    <p><button onclick="add_customer()">ADD</button></p>
+<hr>
+
+<hr>
+    <h2>UPDATE</h2>
+    <p>ID <input type="number" id="txt_id_u"></p>
+    <p>NAME <input type="text" id="txt_name_u"></p>
+    <p>EMAIl <input type="email" id="txt_email_u"></p>
+    <p>ADDRESS <input type="text" id="txt_address_u"></p>
+    <p><button onclick="get_customer_by_id()">GET BY ID</button></p>
+    <p><button onclick="update_customer()">UPDATE</button></p>
+<hr>
+
+
+</body>
+</html>
